@@ -1,0 +1,5 @@
+
+*.pyd
+*.dll
+*.pl
+__pycache__
