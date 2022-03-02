@@ -3,3 +3,5 @@
 *.dll
 *.pl
 __pycache__
+dist
+py_oiio.egg-info
