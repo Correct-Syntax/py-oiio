@@ -3,7 +3,6 @@ from setuptools import setup, find_packages
 
 setup(
   name = 'py-oiio',
-  packages = ['oiio'],
   version = '0.0.1',
   license = 'MIT',
   description = 'OpenImageIO (OIIO) for Python',
@@ -16,7 +15,7 @@ setup(
     'Development Status :: 2 - Pre-Alpha',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3',
+    'Operating System :: Microsoft :: Windows',
     'Programming Language :: Python :: 3.10',
   ],
   packages=find_packages(exclude=[]),
