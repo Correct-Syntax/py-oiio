@@ -15,11 +15,14 @@ Currently, just a simple explainer, etc on how to create a usable python module.
 
 ## Usage
 
-```
+```python
 import oiio
 from oiio import ImageInput, ImageOutput
 from oiio import ImageBuf, ImageSpec, ImageBufAlgo
 ```
+
+Everything else should be the same as in the official [OIIO documentation](https://openimageio.readthedocs.io/en/latest/index.html).
+
 
 # License
 
