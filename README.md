@@ -1,7 +1,7 @@
 # py-oiio
 Python wheels for OpenImageIO
 
-Currently, just a simple explainer, etc on how to create a usable python module.
+Currently just a simple explainer on how to create a usable Python module.
 
 
 ## Usage
@@ -22,7 +22,7 @@ Everything else should be the same as in the official [OIIO documentation](https
 3. Copy the ``vcpkg\installed\x64-windows\lib\python3.10\site-packages\OpenImageIO.cp310-win_amd64.pyd`` file to the ``oiio`` folder.
 4. Copy DLLs from ``vcpkg\installed\x64-windows\bin`` to the ``oiio`` folder.
 5. Rename the .pyd file to ``OpenImageIO.pyd``.
-6. (Optional) ``python3 -m pip install mypy`` then run ``stubgen -m OpenImageIO -o ./`` to generate a .pyi stub for code completion.
+6. (Optional) ``python3 -m pip install mypy`` then run ``stubgen -m OpenImageIO -o ./`` to generate a .pyi stub for code completion. (Thanks, [@pixel-ninja](https://github.com/pixel-ninja))
 
 
 ## Releasing on PyPI
