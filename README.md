@@ -17,11 +17,12 @@ Everything else should be the same as in the official [OIIO documentation](https
 
 ## Windows build steps
 
-- Get vcpkg and run script to install 
-- Install OpenImageIO ``./vcpkg install openimageio[pybind11]:x64-windows``
-- Copy the ``vcpkg\installed\x64-windows\lib\python3.10\site-packages\OpenImageIO.cp310-win_amd64.pyd`` file to ``oiio``
-- Copy DLLs from ``vcpkg\installed\x64-windows\bin`` to ``oiio``
-- Rename pyd file to ``OpenImageIO``
+1. Get vcpkg and run script to install.
+2. Install OpenImageIO with ``./vcpkg install openimageio[pybind11]:x64-windows``.
+3. Copy the ``vcpkg\installed\x64-windows\lib\python3.10\site-packages\OpenImageIO.cp310-win_amd64.pyd`` file to the ``oiio`` folder.
+4. Copy DLLs from ``vcpkg\installed\x64-windows\bin`` to the ``oiio`` folder.
+5. Rename the .pyd file to ``OpenImageIO.pyd``.
+6. (Optional) ``python3 -m pip install mypy`` then run ``stubgen -m OpenImageIO -o ./`` to generate a .pyi stub for code completion.
 
 
 ## Releasing on PyPI
