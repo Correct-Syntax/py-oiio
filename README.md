@@ -3,6 +3,7 @@ Python wheels for OpenImageIO
 
 Currently just a simple explainer on how to create a usable Python module.
 
+**Update 7/15/2025: This repository is unmaintained. There are now offical OpenImageIO Python wheels available at https://pypi.org/project/OpenImageIO/**
 
 ## Usage
 
